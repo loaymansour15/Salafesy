@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122375B98471083530474394 /* Pods_SalafesyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FB3C983946131D08C0D648 /* Pods_SalafesyUITests.framework */; };
+		909496FF0A4FCAB0EECCD7D5 /* Pods_Salafesy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3FBB3066EE504BB3E76BAD8 /* Pods_Salafesy.framework */; };
+		C604C4E3215AFE2D00D4FB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604C4E2215AFE2D00D4FB70 /* AppDelegate.swift */; };
+		C604C4E5215AFE2D00D4FB70 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604C4E4215AFE2D00D4FB70 /* LoginController.swift */; };
+		C604C4E8215AFE2D00D4FB70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C604C4E6215AFE2D00D4FB70 /* Main.storyboard */; };
+		C604C4EB215AFE2D00D4FB70 /* Salafesy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C604C4E9215AFE2D00D4FB70 /* Salafesy.xcdatamodeld */; };
+		C604C4ED215AFE2E00D4FB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C604C4EC215AFE2E00D4FB70 /* Assets.xcassets */; };
+		C604C4F0215AFE2E00D4FB70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C604C4EE215AFE2E00D4FB70 /* LaunchScreen.storyboard */; };
+		C604C4FB215AFE2E00D4FB70 /* SalafesyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604C4FA215AFE2E00D4FB70 /* SalafesyTests.swift */; };
+		C604C506215AFE2E00D4FB70 /* SalafesyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C604C505215AFE2E00D4FB70 /* SalafesyUITests.swift */; };
+		C629253B21B866AD00B8B05E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629253A21B866AD00B8B05E /* SignUpViewController.swift */; };
+		C6409ED421B87B2000C3CB2B /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6409ED321B87B2000C3CB2B /* UserAccount.swift */; };
+		C65AB32321B855BE007488BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65AB32221B855BE007488BD /* HomeViewController.swift */; };
+		C67BFCE721B8500C001B1127 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C67BFCE621B8500B001B1127 /* GoogleService-Info.plist */; };
+		E8746E8558EE8CEE0E786026 /* Pods_SalafesyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2327DAED3AEEF1367CC52E28 /* Pods_SalafesyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C604C4F7215AFE2E00D4FB70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C604C4D7215AFE2D00D4FB70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C604C4DE215AFE2D00D4FB70;
+			remoteInfo = Salafesy;
+		};
+		C604C502215AFE2E00D4FB70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C604C4D7215AFE2D00D4FB70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C604C4DE215AFE2D00D4FB70;
+			remoteInfo = Salafesy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027F16F2207EEF9018CE28D7 /* Pods-SalafesyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalafesyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SalafesyUITests/Pods-SalafesyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B4E9116A1B6CB9A20E1E3BD /* Pods-Salafesy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salafesy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Salafesy/Pods-Salafesy.release.xcconfig"; sourceTree = "<group>"; };
+		1E1667665D246B7279497B02 /* Pods-Salafesy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salafesy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Salafesy/Pods-Salafesy.debug.xcconfig"; sourceTree = "<group>"; };
+		2327DAED3AEEF1367CC52E28 /* Pods_SalafesyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalafesyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F09A3048BB36E2EB150EC12 /* Pods-SalafesyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalafesyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SalafesyTests/Pods-SalafesyTests.release.xcconfig"; sourceTree = "<group>"; };
+		66B86912B2385FE89A623712 /* Pods-SalafesyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalafesyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SalafesyTests/Pods-SalafesyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70CBFD9EFA77E0FC90BB5B41 /* Pods-SalafesyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalafesyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SalafesyUITests/Pods-SalafesyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7FB3C983946131D08C0D648 /* Pods_SalafesyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalafesyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C604C4DF215AFE2D00D4FB70 /* Salafesy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salafesy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C604C4E2215AFE2D00D4FB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C604C4E4215AFE2D00D4FB70 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		C604C4E7215AFE2D00D4FB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C604C4EA215AFE2D00D4FB70 /* Salafesy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Salafesy.xcdatamodel; sourceTree = "<group>"; };
+		C604C4EC215AFE2E00D4FB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C604C4EF215AFE2E00D4FB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C604C4F1215AFE2E00D4FB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C604C4F6215AFE2E00D4FB70 /* SalafesyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalafesyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C604C4FA215AFE2E00D4FB70 /* SalafesyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalafesyTests.swift; sourceTree = "<group>"; };
+		C604C4FC215AFE2E00D4FB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C604C501215AFE2E00D4FB70 /* SalafesyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalafesyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C604C505215AFE2E00D4FB70 /* SalafesyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalafesyUITests.swift; sourceTree = "<group>"; };
+		C604C507215AFE2E00D4FB70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C629253A21B866AD00B8B05E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C6409ED321B87B2000C3CB2B /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		C65AB32221B855BE007488BD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C67BFCE621B8500B001B1127 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E3FBB3066EE504BB3E76BAD8 /* Pods_Salafesy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salafesy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C604C4DC215AFE2D00D4FB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909496FF0A4FCAB0EECCD7D5 /* Pods_Salafesy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C604C4F3215AFE2E00D4FB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8746E8558EE8CEE0E786026 /* Pods_SalafesyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C604C4FE215AFE2E00D4FB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122375B98471083530474394 /* Pods_SalafesyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208EA7A62EA1AD3C6C47C222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E1667665D246B7279497B02 /* Pods-Salafesy.debug.xcconfig */,
+				0B4E9116A1B6CB9A20E1E3BD /* Pods-Salafesy.release.xcconfig */,
+				66B86912B2385FE89A623712 /* Pods-SalafesyTests.debug.xcconfig */,
+				5F09A3048BB36E2EB150EC12 /* Pods-SalafesyTests.release.xcconfig */,
+				027F16F2207EEF9018CE28D7 /* Pods-SalafesyUITests.debug.xcconfig */,
+				70CBFD9EFA77E0FC90BB5B41 /* Pods-SalafesyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C604C4D6215AFE2D00D4FB70 = {
+			isa = PBXGroup;
+			children = (
+				C604C4E1215AFE2D00D4FB70 /* Salafesy */,
+				C604C4F9215AFE2E00D4FB70 /* SalafesyTests */,
+				C604C504215AFE2E00D4FB70 /* SalafesyUITests */,
+				C604C4E0215AFE2D00D4FB70 /* Products */,
+				208EA7A62EA1AD3C6C47C222 /* Pods */,
+				D39F3833E50010EF73EBA963 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C604C4E0215AFE2D00D4FB70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C604C4DF215AFE2D00D4FB70 /* Salafesy.app */,
+				C604C4F6215AFE2E00D4FB70 /* SalafesyTests.xctest */,
+				C604C501215AFE2E00D4FB70 /* SalafesyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C604C4E1215AFE2D00D4FB70 /* Salafesy */ = {
+			isa = PBXGroup;
+			children = (
+				C604C4E6215AFE2D00D4FB70 /* Main.storyboard */,
+				C6409ED321B87B2000C3CB2B /* UserAccount.swift */,
+				C629253A21B866AD00B8B05E /* SignUpViewController.swift */,
+				C604C4E4215AFE2D00D4FB70 /* LoginController.swift */,
+				C65AB32221B855BE007488BD /* HomeViewController.swift */,
+				C67A67CF2188AC0B0059ECB2 /* FrameWorks */,
+				C604C513215AFE6400D4FB70 /* Supporting Files */,
+				C604C4F1215AFE2E00D4FB70 /* Info.plist */,
+				C67BFCE621B8500B001B1127 /* GoogleService-Info.plist */,
+				C604C4E9215AFE2D00D4FB70 /* Salafesy.xcdatamodeld */,
+			);
+			path = Salafesy;
+			sourceTree = "<group>";
+		};
+		C604C4F9215AFE2E00D4FB70 /* SalafesyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C604C4FA215AFE2E00D4FB70 /* SalafesyTests.swift */,
+				C604C4FC215AFE2E00D4FB70 /* Info.plist */,
+			);
+			path = SalafesyTests;
+			sourceTree = "<group>";
+		};
+		C604C504215AFE2E00D4FB70 /* SalafesyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C604C505215AFE2E00D4FB70 /* SalafesyUITests.swift */,
+				C604C507215AFE2E00D4FB70 /* Info.plist */,
+			);
+			path = SalafesyUITests;
+			sourceTree = "<group>";
+		};
+		C604C513215AFE6400D4FB70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C604C4E2215AFE2D00D4FB70 /* AppDelegate.swift */,
+				C604C4EC215AFE2E00D4FB70 /* Assets.xcassets */,
+				C604C4EE215AFE2E00D4FB70 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C67A67CF2188AC0B0059ECB2 /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameWorks;
+			sourceTree = "<group>";
+		};
+		D39F3833E50010EF73EBA963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3FBB3066EE504BB3E76BAD8 /* Pods_Salafesy.framework */,
+				2327DAED3AEEF1367CC52E28 /* Pods_SalafesyTests.framework */,
+				B7FB3C983946131D08C0D648 /* Pods_SalafesyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C604C4DE215AFE2D00D4FB70 /* Salafesy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C604C50A215AFE2E00D4FB70 /* Build configuration list for PBXNativeTarget "Salafesy" */;
+			buildPhases = (
+				424796515050FC6837BBE41C /* [CP] Check Pods Manifest.lock */,
+				C604C4DB215AFE2D00D4FB70 /* Sources */,
+				C604C4DC215AFE2D00D4FB70 /* Frameworks */,
+				C604C4DD215AFE2D00D4FB70 /* Resources */,
+				251536BE769AB7781E07725B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salafesy;
+			productName = Salafesy;
+			productReference = C604C4DF215AFE2D00D4FB70 /* Salafesy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C604C4F5215AFE2E00D4FB70 /* SalafesyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C604C50D215AFE2E00D4FB70 /* Build configuration list for PBXNativeTarget "SalafesyTests" */;
+			buildPhases = (
+				505C0908CE802EEF243F6687 /* [CP] Check Pods Manifest.lock */,
+				C604C4F2215AFE2E00D4FB70 /* Sources */,
+				C604C4F3215AFE2E00D4FB70 /* Frameworks */,
+				C604C4F4215AFE2E00D4FB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C604C4F8215AFE2E00D4FB70 /* PBXTargetDependency */,
+			);
+			name = SalafesyTests;
+			productName = SalafesyTests;
+			productReference = C604C4F6215AFE2E00D4FB70 /* SalafesyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C604C500215AFE2E00D4FB70 /* SalafesyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C604C510215AFE2E00D4FB70 /* Build configuration list for PBXNativeTarget "SalafesyUITests" */;
+			buildPhases = (
+				7BBFDA1B72C16111EA518382 /* [CP] Check Pods Manifest.lock */,
+				C604C4FD215AFE2E00D4FB70 /* Sources */,
+				C604C4FE215AFE2E00D4FB70 /* Frameworks */,
+				C604C4FF215AFE2E00D4FB70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C604C503215AFE2E00D4FB70 /* PBXTargetDependency */,
+			);
+			name = SalafesyUITests;
+			productName = SalafesyUITests;
+			productReference = C604C501215AFE2E00D4FB70 /* SalafesyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C604C4D7215AFE2D00D4FB70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Loay Productions";
+				TargetAttributes = {
+					C604C4DE215AFE2D00D4FB70 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+					};
+					C604C4F5215AFE2E00D4FB70 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = C604C4DE215AFE2D00D4FB70;
+					};
+					C604C500215AFE2E00D4FB70 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = C604C4DE215AFE2D00D4FB70;
+					};
+				};
+			};
+			buildConfigurationList = C604C4DA215AFE2D00D4FB70 /* Build configuration list for PBXProject "Salafesy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C604C4D6215AFE2D00D4FB70;
+			productRefGroup = C604C4E0215AFE2D00D4FB70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C604C4DE215AFE2D00D4FB70 /* Salafesy */,
+				C604C4F5215AFE2E00D4FB70 /* SalafesyTests */,
+				C604C500215AFE2E00D4FB70 /* SalafesyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C604C4DD215AFE2D00D4FB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C604C4F0215AFE2E00D4FB70 /* LaunchScreen.storyboard in Resources */,
+				C67BFCE721B8500C001B1127 /* GoogleService-Info.plist in Resources */,
+				C604C4ED215AFE2E00D4FB70 /* Assets.xcassets in Resources */,
+				C604C4E8215AFE2D00D4FB70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C604C4F4215AFE2E00D4FB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C604C4FF215AFE2E00D4FB70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		251536BE769AB7781E07725B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Salafesy/Pods-Salafesy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Salafesy/Pods-Salafesy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424796515050FC6837BBE41C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salafesy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		505C0908CE802EEF243F6687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SalafesyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBFDA1B72C16111EA518382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SalafesyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C604C4DB215AFE2D00D4FB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C604C4E5215AFE2D00D4FB70 /* LoginController.swift in Sources */,
+				C604C4E3215AFE2D00D4FB70 /* AppDelegate.swift in Sources */,
+				C6409ED421B87B2000C3CB2B /* UserAccount.swift in Sources */,
+				C604C4EB215AFE2D00D4FB70 /* Salafesy.xcdatamodeld in Sources */,
+				C65AB32321B855BE007488BD /* HomeViewController.swift in Sources */,
+				C629253B21B866AD00B8B05E /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C604C4F2215AFE2E00D4FB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C604C4FB215AFE2E00D4FB70 /* SalafesyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C604C4FD215AFE2E00D4FB70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C604C506215AFE2E00D4FB70 /* SalafesyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C604C4F8215AFE2E00D4FB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C604C4DE215AFE2D00D4FB70 /* Salafesy */;
+			targetProxy = C604C4F7215AFE2E00D4FB70 /* PBXContainerItemProxy */;
+		};
+		C604C503215AFE2E00D4FB70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C604C4DE215AFE2D00D4FB70 /* Salafesy */;
+			targetProxy = C604C502215AFE2E00D4FB70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C604C4E6215AFE2D00D4FB70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C604C4E7215AFE2D00D4FB70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C604C4EE215AFE2E00D4FB70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C604C4EF215AFE2E00D4FB70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C604C508215AFE2E00D4FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C604C509215AFE2E00D4FB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C604C50B215AFE2E00D4FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1667665D246B7279497B02 /* Pods-Salafesy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR38GFGTY8;
+				INFOPLIST_FILE = Salafesy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.Salafesy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C604C50C215AFE2E00D4FB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4E9116A1B6CB9A20E1E3BD /* Pods-Salafesy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR38GFGTY8;
+				INFOPLIST_FILE = Salafesy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.Salafesy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C604C50E215AFE2E00D4FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B86912B2385FE89A623712 /* Pods-SalafesyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR38GFGTY8;
+				INFOPLIST_FILE = SalafesyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.SalafesyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salafesy.app/Salafesy";
+			};
+			name = Debug;
+		};
+		C604C50F215AFE2E00D4FB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F09A3048BB36E2EB150EC12 /* Pods-SalafesyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR38GFGTY8;
+				INFOPLIST_FILE = SalafesyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.SalafesyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salafesy.app/Salafesy";
+			};
+			name = Release;
+		};
+		C604C511215AFE2E00D4FB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027F16F2207EEF9018CE28D7 /* Pods-SalafesyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR38GFGTY8;
+				INFOPLIST_FILE = SalafesyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.SalafesyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salafesy;
+			};
+			name = Debug;
+		};
+		C604C512215AFE2E00D4FB70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70CBFD9EFA77E0FC90BB5B41 /* Pods-SalafesyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZR38GFGTY8;
+				INFOPLIST_FILE = SalafesyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.loaymansour15.SalafesyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salafesy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C604C4DA215AFE2D00D4FB70 /* Build configuration list for PBXProject "Salafesy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C604C508215AFE2E00D4FB70 /* Debug */,
+				C604C509215AFE2E00D4FB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C604C50A215AFE2E00D4FB70 /* Build configuration list for PBXNativeTarget "Salafesy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C604C50B215AFE2E00D4FB70 /* Debug */,
+				C604C50C215AFE2E00D4FB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C604C50D215AFE2E00D4FB70 /* Build configuration list for PBXNativeTarget "SalafesyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C604C50E215AFE2E00D4FB70 /* Debug */,
+				C604C50F215AFE2E00D4FB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C604C510215AFE2E00D4FB70 /* Build configuration list for PBXNativeTarget "SalafesyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C604C511215AFE2E00D4FB70 /* Debug */,
+				C604C512215AFE2E00D4FB70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C604C4E9215AFE2D00D4FB70 /* Salafesy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C604C4EA215AFE2D00D4FB70 /* Salafesy.xcdatamodel */,
+			);
+			currentVersion = C604C4EA215AFE2D00D4FB70 /* Salafesy.xcdatamodel */;
+			path = Salafesy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C604C4D7215AFE2D00D4FB70 /* Project object */;
+}
